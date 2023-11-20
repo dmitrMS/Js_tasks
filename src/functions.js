@@ -127,4 +127,8 @@ export const functions = {
   timeForMilkAndCookies,
   largestSwap,
   minMax,
+  sortDrinkByPrice,
+  bitwiseAND,
+  bitwiseOR,
+  bitwiseXOR,
 };

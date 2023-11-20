@@ -61,16 +61,60 @@ test("largestSwap first test", () => {
 test("largestSwap second test", () => {
   expect(functions.largestSwap(54)).toEqual(true);
 });
+test("minMax first test", () => {
+  expect(functions.minMax([1.346, 1.6532, 1.8734, 1.8723])).toStrictEqual([
+    1.346, 1.8734,
+  ]);
+});
 
-// Test.assertEquals(timeForMilkAndCookies(new Date(2013, 11, 24)), true);
-// Test.assertEquals(timeForMilkAndCookies(new Date(2154, 11, 11)), false);
-// Test.assertEquals(largestSwap(27), false, "27 < 72, so not largest swap.");
-// Test.assertEquals(largestSwap(43), true, "43 > 34, so largest swap.");
-// Test.assertEquals(numberSquares(3), 14)
-// Test.assertEquals(numberSquares(10), 385)
-// Test.assertSimilar(numberSplit(4), [2, 2])
-// Test.assertSimilar(numberSplit(10), [5, 5])
-// Test.assertEquals(toBinary(0xFF), "11111111")
-// Test.assertEquals(toBinary(0xAA), "10101010")
-// Test.assertEquals(seriesResistance([1, 5, 6, 3]), "15 ohms")
-// Test.assertEquals(seriesResistance([0.2, 0.3, 0.4]), "0.9 ohm")
+test("minMax second test", () => {
+  expect(functions.minMax([14, 35, 6, 1, 34, 54])).toStrictEqual([1, 54]);
+});
+test("sortDrinkByPrice first test", () => {
+  expect(
+    functions.sortDrinkByPrice([
+      { name: "lemonade", price: 90 },
+      { name: "lime", price: 432 },
+      { name: "peach", price: 23 },
+    ])
+  ).toStrictEqual([
+    { name: "peach", price: 23 },
+    { name: "lemonade", price: 90 },
+    { name: "lime", price: 432 },
+  ]);
+});
+
+test("sortDrinkByPrice second test", () => {
+  expect(
+    functions.sortDrinkByPrice([
+      { name: "water", price: 120 },
+      { name: "lime", price: 80 },
+      { name: "peach", price: 90 },
+    ])
+  ).toStrictEqual([
+    { name: "lime", price: 80 },
+    { name: "peach", price: 90 },
+    { name: "water", price: 120 },
+  ]);
+});
+test("bitwiseAND first test", () => {
+  expect(functions.bitwiseAND(7, 12)).toEqual(4);
+});
+
+test("bitwiseAND second test", () => {
+  expect(functions.bitwiseAND(32, 17)).toEqual(0);
+});
+test("bitwiseOR first test", () => {
+  expect(functions.bitwiseOR(7, 12)).toEqual(15);
+});
+
+test("bitwiseOR second test", () => {
+  expect(functions.bitwiseOR(32, 17)).toEqual(49);
+});
+test("bitwiseXOR first test", () => {
+  expect(functions.bitwiseXOR(7, 12)).toEqual(11);
+});
+
+test("bitwiseXOR second test", () => {
+  expect(functions.bitwiseXOR(32, 17)).toEqual(49);
+});
