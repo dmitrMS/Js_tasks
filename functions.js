@@ -49,8 +49,7 @@ function sortDrinkByPrice(drinks) {
 }
 
 function minMax(arr) {
-  const sizeArr = arr.lenght;
-  let minMaxArr = [,];
+  let minMaxArr = [];
   let result = 0;
 
   for (var i = 0; i < arr.length; i++) if (arr[i] != undefined) result++;
@@ -80,9 +79,9 @@ function seriesResistance(arr) {
 
   for (var i = 0; i < arr.length; i++) result = result + arr[i];
 
-  if (result > 1.0) return result + " ohms";
+  if (result > 1.0) return result + ' ohms';
 
-  return result + " ohm";
+  return result + ' ohm';
 }
 
 function timeForMilkAndCookies(date) {
@@ -90,7 +89,7 @@ function timeForMilkAndCookies(date) {
 }
 
 function numberSplit(n) {
-  let arr = [,];
+  let arr = [];
 
   if (n % 2 !== 0) {
     arr[1] = Math.ceil(n / 2);
@@ -116,7 +115,7 @@ function largestSwap(num) {
 function rexesp(REGEXP) {
   const regexpWithoutE = /\b\d\d:\d\d\b/;
   const match1 = REGEXP.match(regexpWithoutE);
-  return match1;
+  return match1[0];
 }
 export const functions = {
   numberSquares,
@@ -131,4 +130,5 @@ export const functions = {
   bitwiseAND,
   bitwiseOR,
   bitwiseXOR,
+  addUp
 };
