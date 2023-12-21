@@ -18,67 +18,68 @@ Readme.md- текстовый файл с информацией о задаче
     </tr>
     <tr>
         <td>Факториал</td>
-        <td>/Bitwise Operations</td>
+        <td> /Bitwise Operations </td>
         <td>2</td>
-        <td>- [x]</td>
+        <td><ul><li>- [x] Пройдена </li></ul></td>
     </tr>
     <tr>
         <td>Побитовые операции </td>
         <td>/Bitwise Operations</td>
         <td>12 </td>
-        <td>- [x]</td>
+        <td><ul><li>- [x] Пройдена </li></ul></td>
     </tr>
     <tr>
         <td>Сортировка напитков</td>
         <td>/Drink Sorting</td>
         <td>4 </td>
-        <td>- [x]</td>
+        <td><ul><li>- [x] Пройдена </li></ul></td>
     </tr>
     <tr>
         <td>Шестнадцатеричный код в двоичный </td>
         <td>/Hex to Binary</td>
         <td>2</td>
-        <td>- [x]</td>
+        <td><ul><li>- [x] Пройдена </li></ul></td>
     </tr>
     <tr>
         <td>Пришло время молока и печенья </td>
         <td>/Is is time for Milk</td>
         <td>2</td>
-        <td>- [x]</td>
+        <td><ul><li>- [x] Пройдена </li></ul></td>
     </tr>
     <tr>
         <td>Крупнейший своп </td>
         <td>/Largest Swap</td>
         <td>2</td>
-        <td>- [x]</td>
+        <td><ul><li>- [x] Пройдена </li></ul></td>
     </tr>
     <tr>
         <td>Количество квадратов в сетке N\*N </td>
         <td>/Number of Squares</td>
         <td>4</td>
-        <td>- [x]</td>
+        <td><ul><li>- [x] Пройдена </li></ul></td>
     </tr>
     <tr>
         <td>Числовое разделение </td>
         <td>/Number Split</td>
         <td>4</td>
-        <td>- [x]</td>
+        <td><ul><li>- [x] Пройдена </li></ul></td>
     </tr>
     <tr>
         <td>Упражнение 1 с регулярным выражением: найдите время </td>
         <td>/RegEx Exercise</td>
         <td>5</td>
+        <td><ul><li>- [x] Пройдена </li></ul></td>
     </tr>
     <tr>
         <td>Сумма сопротивлений в последовательных цепях</td>
         <td>/Sum of Resistance/td>
         <td>2</td>
-        <td>- [x]</td>
+        <td><ul><li>- [x] Пройдена </li></ul></td>
     </tr>
 </table>
+
 ## Команды
 **Запуск тестов задач:**
 ```
 npm run test
 ```
-
