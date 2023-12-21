@@ -3,9 +3,7 @@ function largestSwap(num) {
   const numSecond = num % 10;
   const swap = numSecond.toString() + numFirst.toString();
 
-  if (swap <= num) return true;
-
-  return false;
+  return swap <= num;
 }
 
 export const functions = {

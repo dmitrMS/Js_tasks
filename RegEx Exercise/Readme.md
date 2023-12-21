@@ -5,16 +5,13 @@
 В этой задаче пока нет необходимости проверять правильность времени, поэтому 25:99 также может быть верным результатом.
 Регулярное выражение не должно соответствовать 123:456.
 Ссылка на задание: https://edabit.com/challenge/QkuiL7XApt2RMQqTJ
-### Теститрование задачи 
 
-**Название:**
-rexesp first test</br>
-**Входные данные:** Breakfast at 09:00 in the room 123:456.</br>
-**Выходные данные:** 09:00</br>
+### Теститрование задачи
 
-### Теститрование задачи 
-
-**Название:**
-rexesp second test</br>
-**Входные данные:** Breakfast at 13:54 in the room 123:456.</br>
-**Выходные данные:** 13:54</br>
+| **Название:** | **Входные данные:** |**Результат:**   |
+| ----------- | ----------- |-----------   |
+| rexesp  first test    | Breakfast at 09:00 in the room 123:456.  |09:00   |
+| rexesp  second test   | Breakfast at 13:54 in the room 123:456. | 13:54  |
+| rexesp  third test    | Breakfast in the room 123:456.13:54.  |13:54  |
+| rexesp  four test    | 13:54. Breakfast in the room 123:456.  |13:54  |
+| rexesp  five  test   | 14:06 | 14:06   |

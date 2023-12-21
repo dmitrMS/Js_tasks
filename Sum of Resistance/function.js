@@ -1,11 +1,9 @@
 function seriesResistance(arr) {
   let result = 0;
 
-  for (var i = 0; i < arr.length; i++) result = result + arr[i];
+  arr.forEach((element) => (result = result + element));
 
-  if (result > 1.0) return result + ' ohms';
-
-  return result + ' ohm';
+  return result > 1.0 ? result + ' ohms' : result + ' ohm';
 }
 
 export const functions = {

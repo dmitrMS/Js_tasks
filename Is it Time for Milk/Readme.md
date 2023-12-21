@@ -3,16 +3,10 @@
 Создайте функцию, которая принимает объект Date и возвращает true, если сегодня сочельник (24 декабря), и false в противном случае.
 Имейте в виду, что месяц даты в JavaScript основан на 0, то есть декабрь — 11-й месяц, а январь — 0.
 Ссылка на задание: https://edabit.com/challenge/hPWnaSckJke5FXNEH
-### Теститрование задачи 
 
-**Название:**
-timeForMilkAndCookies first test</br>
-**Входные данные:** new Date(2013, 11, 24)</br>
-**Выходные данные:** true</br>
+### Теститрование задачи
 
-### Теститрование задачи 
-
-**Название:**
-timeForMilkAndCookies second test</br>
-**Входные данные:** new Date(2013, 10, 24)</br>
-**Выходные данные:** false</br>
+| **Название:** | **Входные данные:** |**Результат:**   |
+| ----------- | ----------- |-----------   |
+| timeForMilkAndCookies first test    | new Date(2013, 11, 24)  |true   |
+| timeForMilkAndCookies second test   | new Date(2013, 10, 24) | false   |

@@ -14,6 +14,20 @@ function sortDrinkByPrice(drinks) {
   return drinks;
 }
 
+function sortDrinkByPriceMechanic(drinks) {
+  for (let i = 0; i < drinks.length; i++) {
+    for (let j = 0; j < drinks.length - 1; j++) {
+      if (drinks[j].price > drinks[j + 1].price) {
+        let temp = drinks[j];
+        drinks[j] = drinks[j + 1];
+        drinks[j + 1] = temp;
+      }
+    }
+  }
+  return drinks;
+}
+
 export const functions = {
-  sortDrinkByPrice
+  sortDrinkByPrice,
+  sortDrinkByPriceMechanic
 };

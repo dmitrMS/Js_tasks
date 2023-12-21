@@ -1,4 +1,5 @@
 import { functions } from './function.js';
+
 test('addUp first test', () => {
   expect(functions.addUp(4)).toEqual(10);
 });
