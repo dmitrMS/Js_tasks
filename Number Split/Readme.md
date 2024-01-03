@@ -5,9 +5,9 @@
 
 ### Теститрование задачи
 
-| **Название:** | **Входные данные:** |**Результат:**   |
-| ----------- | ----------- |-----------   |
-| numberSplit  first test    | 2  |[2, 2]   |
-| numberSplit  second test   | 10 | [5, 5]  |
-| numberSplit  third test    | -12  |[-6, -6]  |
-| numberSplit  four  test   | 0 | [0, 0]   |
+| **Название:**           | **Входные данные:** | **Результат:** |
+| ----------------------- | ------------------- | -------------- |
+| numberSplit first test  | 2                   | [2, 2]         |
+| numberSplit second test | 10                  | [5, 5]         |
+| numberSplit third test  | -12                 | [-6, -6]       |
+| numberSplit four test   | 0                   | [0, 0]         |

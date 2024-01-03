@@ -5,9 +5,9 @@
 
 ### Теститрование задачи
 
-| **Название:** | **Входные данные:** |**Результат:**   |**Время:**   |
-| ----------- | ----------- |-----------   |-----------   |
-| numberSquares  first test    | 3  |14   |18 |
-| numberSquares  second test   | 10 | 385   |24 |
-| numberSquaresOptimized  first test    | 3  |14   |12 |
-| numberSquaresOptimized  second  test   | 10 | 385   |13 |
+| **Название:**                      | **Входные данные:** | **Результат:** | **Время:** |
+| ---------------------------------- | ------------------- | -------------- | ---------- |
+| numberSquares first test           | 3                   | 14             | 18         |
+| numberSquares second test          | 10                  | 385            | 24         |
+| numberSquaresOptimized first test  | 3                   | 14             | 12         |
+| numberSquaresOptimized second test | 10                  | 385            | 13         |

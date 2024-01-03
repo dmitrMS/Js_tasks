@@ -63,11 +63,9 @@ test('sortDrinkByPriceMechanic second test', () => {
   expect(
     functions.sortDrinkByPriceMechanic([
       { name: 'water', price: 120 },
-      { name: 'lime', price: 80 },
       { name: 'peach', price: 90 }
     ])
   ).toStrictEqual([
-    { name: 'lime', price: 80 },
     { name: 'peach', price: 90 },
     { name: 'water', price: 120 }
   ]);

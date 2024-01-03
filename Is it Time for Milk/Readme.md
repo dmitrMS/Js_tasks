@@ -6,7 +6,7 @@
 
 ### Теститрование задачи
 
-| **Название:** | **Входные данные:** |**Результат:**   |
-| ----------- | ----------- |-----------   |
-| timeForMilkAndCookies first test    | new Date(2013, 11, 24)  |true   |
-| timeForMilkAndCookies second test   | new Date(2013, 10, 24) | false   |
+| **Название:**                     | **Входные данные:**    | **Результат:** |
+| --------------------------------- | ---------------------- | -------------- |
+| timeForMilkAndCookies first test  | new Date(2013, 11, 24) | true           |
+| timeForMilkAndCookies second test | new Date(2013, 10, 24) | false          |

@@ -8,17 +8,17 @@
 
 ### Теститрование задачи
 
-| **Название:** | **Входные данные:** |**Результат:**   |**Побитовая операция:**   |
-| ----------- | ----------- |-----------   |-----------   |
-| bitwiseAnd first test   | 7, 12 |4   |111 & 1100 = 100  |
-| bitwiseAnd second test   | 32, 17 | 0   |100000 & 10001 = 0   |
-| bitwiseAndMechanic  first test   | 7, 12 |4   |111 & 1100 = 100  |
-| bitwiseAndMechanic  second test   | 32, 17 | 0   |100000 & 10001 = 0   |
-| bitwiseOr first test   | 7, 12 | 15 |111 & 1100 = 1111 |
-| bitwiseOr second test   | 32, 17 | 49  |100000 & 10001 = 110001   |
-| bitwiseOrMechanic  first test   | 7, 12 |15  |111 & 1100 = 1111  |
-| bitwiseOrMechanic  second test   | 32, 17 | 49   |100000 & 10001 = 110001   |
-| bitwiseXor first test   | 7, 12 | 11 |111 & 1100 = 1011 |
-| bitwiseXor second test   | 32, 17 | 49  |100000 & 10001 = 110001   |
-| bitwiseXorMechanic  first test   | 7, 12 |11  |111 & 1100 = 1011  |
-| bitwiseXorMechanic  second test   | 32, 17 | 49   |100000 & 10001 = 110001   |
+| **Название:**                  | **Входные данные:** | **Результат:** | **Побитовая операция:**  |
+| ------------------------------ | ------------------- | -------------- | ------------------------ |
+| bitwiseAnd first test          | 7, 12               | 4              | 111 & 1100 = 100         |
+| bitwiseAnd second test         | 32, 17              | 0              | 100000 & 10001 = 0       |
+| bitwiseAndMechanic first test  | 7, 12               | 4              | 111 & 1100 = 100         |
+| bitwiseAndMechanic second test | 32, 17              | 0              | 100000 & 10001 = 0       |
+| bitwiseOr first test           | 7, 12               | 15             | 111 \| 1100 = 1111       |
+| bitwiseOr second test          | 32, 17              | 49             | 100000 \| 10001 = 110001 |
+| bitwiseOrMechanic first test   | 7, 12               | 15             | 111 \| 1100 = 1111       |
+| bitwiseOrMechanic second test  | 32, 17              | 49             | 100000 \| 10001 = 110001 |
+| bitwiseXor first test          | 7, 12               | 11             | 111 ^ 1100 = 1011        |
+| bitwiseXor second test         | 32, 17              | 49             | 100000 ^ 10001 = 110001  |
+| bitwiseXorMechanic first test  | 7, 12               | 11             | 111 ^ 1100 = 1011        |
+| bitwiseXorMechanic second test | 32, 17              | 49             | 100000 ^ 10001 = 110001  |
